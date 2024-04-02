@@ -23,7 +23,7 @@ let p1 = array(arr)
 
 p1.then((data)=>{
     let div = document.createElement("div")
-        let ans = data.filter((value)=>{value%2==0})
+        let ans = data.filter((value)=>value%2==0)
         div.innerText = ans
         output.append(div)
         return array1(ans)
